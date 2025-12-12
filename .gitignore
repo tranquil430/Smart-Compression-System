@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+
+# Models and Logs (User specific)
+*.pkl
+*.log
+*.csv
+!xgboost_dataset.csv  # Keep this if it's the base training data
+
+# OS
+.DS_Store
+Thumbs.db
