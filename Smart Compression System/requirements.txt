@@ -1,0 +1,11 @@
+pywebview
+pandas
+numpy
+scikit-learn
+xgboost
+joblib
+schedule
+pyzipper
+pystray
+Pillow
+scipy
