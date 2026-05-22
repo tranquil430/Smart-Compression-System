@@ -1,4 +1,4 @@
-<img width="1181" height="722" alt="image" src="https://github.com/user-attachments/assets/0b7cd74a-971f-4ac3-a49f-1dcf5b27dca3" /># Smart Compression System (SCS)
+
 
 SCS is an intelligent file management tool that automates file archiving using Machine Learning. It utilizes a hybrid model approach to predict which files should be compressed, selects the optimal compression algorithm (7z, RAR, ZIP) based on file entropy, and learns from user interactions over time.
 
@@ -16,6 +16,10 @@ The system relies on three distinct modeling stages:
 1.  **Candidate Selection:** A baseline Random Forest model filters files based on metadata policies.
 2.  **Algorithm Selector:** An XGBoost classifier predicts the optimal compression format.
 3.  **Adaptive Feedback:** A secondary classifier retrains on runtime logs to refine future suggestions.
+
+## Sample Image
+<img width="1181" height="722" alt="image" src="https://github.com/user-attachments/assets/0b7cd74a-971f-4ac3-a49f-1dcf5b27dca3" />
+
 
 ## Installation
 
@@ -41,9 +45,7 @@ Run the main application entry point:
 ```bash
 python src/app.py
 
-## GUI
-<img width="1181" height="722" alt="image" src="https://github.com/user-attachments/assets/62ab80a0-335f-46c4-ab97-b5662fac01c9" />
 
-<img width="1920" height="1040" alt="image" src="https://github.com/user-attachments/assets/b5b0bb10-c860-4c2e-b40a-1c04025d2af2" />
+
 
 
